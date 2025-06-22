@@ -6,7 +6,6 @@ backup*
 *.obj
 lib/*
 lib\*
-*.dll
 *.exe
 *.lintian
 *.bat
