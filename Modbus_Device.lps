@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Release Win64">
+      <Item Name="Release Lin64 QT5">
+        <MacroValues Count="1">
+          <Macro1 Name="LCLWidgetType" Value="qt5"/>
+        </MacroValues>
+        <CompilerOptions>
+          <Version Value="11"/>
+          <PathDelim Value="\"/>
+          <Target>
+            <Filename Value="bin\$(TargetOS)\Modbus_Device"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <Libraries Value="ext"/>
+            <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <CodeGeneration>
+            <SmartLinkUnit Value="True"/>
+            <Optimizations>
+              <OptimizationLevel Value="3"/>
+            </Optimizations>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <GenerateDebugInfo Value="False"/>
+              <DebugInfoType Value="dsDwarf3"/>
+              <StripSymbols Value="True"/>
+            </Debugging>
+            <LinkSmart Value="True"/>
+            <Options>
+              <Win32>
+                <GraphicApplication Value="True"/>
+              </Win32>
+            </Options>
+          </Linking>
+        </CompilerOptions>
+      </Item>
+      <Item Name="Release Win64">
+        <MacroValues Count="1">
+          <Macro2 Name="LCLWidgetType" Value="win32"/>
+        </MacroValues>
+        <CompilerOptions>
+          <Version Value="11"/>
+          <PathDelim Value="\"/>
+          <Target>
+            <Filename Value="bin\$(TargetOS)\Modbus_Device"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <Libraries Value="ext"/>
+            <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <CodeGeneration>
+            <SmartLinkUnit Value="True"/>
+            <Optimizations>
+              <OptimizationLevel Value="3"/>
+            </Optimizations>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <GenerateDebugInfo Value="False"/>
+              <DebugInfoType Value="dsDwarf3"/>
+              <StripSymbols Value="True"/>
+            </Debugging>
+            <LinkSmart Value="True"/>
+            <Options>
+              <Win32>
+                <GraphicApplication Value="True"/>
+              </Win32>
+            </Options>
+          </Linking>
+        </CompilerOptions>
+      </Item>
+      <SessionEnabledMatrixOptions Count="2">
+        <Item1 Mode="Release Lin64 QT5" Option="509583711726"/>
+        <Item2 Mode="Release Win64" Option="978504613062"/>
+      </SessionEnabledMatrixOptions>
+    </BuildModes>
+    <Units>
+      <Unit>
+        <Filename Value="Modbus_Device.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="27"/>
+        <UsageCount Value="171"/>
+      </Unit>
+      <Unit>
+        <Filename Value="untDeviceMain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmMainDevice"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <CursorPos X="41" Y="10"/>
+        <UsageCount Value="171"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="untDeviceSettings.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmSettings"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="11" Y="174"/>
+        <UsageCount Value="162"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="untVisibilityDialog.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="dlgVisibility"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="69"/>
+        <CursorPos X="23" Y="72"/>
+        <UsageCount Value="34"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="untSnapMB.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="9"/>
+        <CursorPos X="38" Y="17"/>
+        <UsageCount Value="151"/>
+      </Unit>
+      <Unit>
+        <Filename Value="untDataQueue.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="14"/>
+        <UsageCount Value="137"/>
+      </Unit>
+      <Unit>
+        <Filename Value="untSnapMBCommon.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="16"/>
+        <UsageCount Value="79"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit1.pas"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit1"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="72" Y="3"/>
+        <UsageCount Value="118"/>
+      </Unit>
+      <Unit>
+        <Filename Value="frmmainbroker.pas"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmMainBroker"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="29" Y="4"/>
+        <UsageCount Value="51"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit1.lfm"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="15" Y="14"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\lcl\grids.pas"/>
+        <UnitName Value="Grids"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="10116"/>
+        <CursorPos X="17" Y="10122"/>
+        <UsageCount Value="68"/>
+      </Unit>
+      <Unit>
+        <Filename Value="D:\SerialComVS\rs232.c"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="37"/>
+        <CursorPos Y="54"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="C_2B_2B"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\lcl\include\customcontrol.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="37"/>
+        <CursorPos X="12" Y="71"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="E:\Develop\Snap7\snap7-full-1.4.2\rich-demos\snap7.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="341"/>
+        <CursorPos Y="364"/>
+        <UsageCount Value="5"/>
+      </Unit>
+      <Unit>
+        <Filename Value="E:\Develop\Snap7\snap7-full-1.4.2\rich-demos\MainServer.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="1"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="E:\Develop\Snap7\snap7-full-1.4.2\rich-demos\MainServer.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="231"/>
+        <CursorPos X="7" Y="315"/>
+        <UsageCount Value="3"/>
+      </Unit>
+      <Unit>
+        <Filename Value="E:\Develop\Snap7\Smart7\source\classes\sm7_tcpsrvr.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="69"/>
+        <CursorPos Y="69"/>
+        <UsageCount Value="3"/>
+      </Unit>
+      <Unit>
+        <Filename Value="E:\Develop\Snap7\Smart7\source\classes\platform.inc"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="3"/>
+      </Unit>
+      <Unit>
+        <Filename Value="D:\snap7-full-1.4.2\rich-demos\frmPartner.pas"/>
+        <ComponentName Value="PartnerForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="447"/>
+        <CursorPos Y="474"/>
+        <UsageCount Value="6"/>
+      </Unit>
+      <Unit>
+        <Filename Value="D:\delphi-modbus-develop\demos\Indy10\Slave\frm_Main.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="163"/>
+        <CursorPos X="27" Y="175"/>
+        <UsageCount Value="3"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\lcl\graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="236"/>
+        <CursorPos X="3" Y="253"/>
+        <UsageCount Value="7"/>
+      </Unit>
+      <Unit>
+        <Filename Value="frmbroker.pas"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmBroker"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="994"/>
+        <CursorPos X="27" Y="1026"/>
+        <UsageCount Value="27"/>
+      </Unit>
+      <Unit>
+        <Filename Value="D:\interop\unit2.pas"/>
+        <ComponentName Value="Form2"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="16"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\lcl\include\control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2921"/>
+        <CursorPos Y="2959"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="frmbrokersettings.pas"/>
+        <ComponentName Value="SettingsForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmBrokersettings"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="297"/>
+        <CursorPos X="3" Y="329"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="cereal.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="30"/>
+        <CursorPos X="7" Y="48"/>
+        <UsageCount Value="11"/>
+      </Unit>
+      <Unit>
+        <Filename Value="untDeviceMain.lfm"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4049"/>
+        <CursorPos X="20" Y="4064"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="D:\home\bobby\Dokumente\delphi-modbus-develop\packages\delphimodbuslazarus.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="5" Y="10"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="D:\home\bobby\Dokumente\delphi-modbus-develop\source\IdModbusClient.pas"/>
+        <UnitName Value="IdModBusClient"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="D:\home\bobby\Dokumente\delphi-modbus-develop\source\IdModbusServer.pas"/>
+        <UnitName Value="IdModBusServer"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="467"/>
+        <CursorPos X="25" Y="481"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="untCOMPortList.pas"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="15"/>
+        <CursorPos Y="22"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="D:\usr\share\lazarus\4.0.0\lcl\interfaces\gtk2\gtk2devicecontext.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1287"/>
+        <CursorPos Y="1302"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="D:\usr\share\lazarus\4.0.0\components\lazutils\lazfileutils.pas"/>
+        <UnitName Value="LazFileUtils"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="40"/>
+        <CursorPos X="15" Y="55"/>
+        <UsageCount Value="11"/>
+      </Unit>
+      <Unit>
+        <Filename Value="D:\usr\share\lazarus\4.0.0\components\lazutils\unixlazfileutils.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="350"/>
+        <CursorPos X="22" Y="352"/>
+        <UsageCount Value="11"/>
+      </Unit>
+      <Unit>
+        <Filename Value="D:\usr\share\lazarus\4.0.0\lcl\interfaces\win32\win32int.pp"/>
+        <UnitName Value="Win32Int"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="17"/>
+        <CursorPos X="3" Y="32"/>
+        <UsageCount Value="10"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="17">
+      <Position>
+        <Filename Value="untDeviceSettings.pas"/>
+        <Caret Line="200" Column="27" TopLine="178"/>
+      </Position>
+      <Position>
+        <Filename Value="untDeviceSettings.pas"/>
+        <Caret Line="13" Column="34"/>
+      </Position>
+      <Position>
+        <Filename Value="untDeviceSettings.pas"/>
+        <Caret Line="211" Column="15" TopLine="197"/>
+      </Position>
+      <Position>
+        <Filename Value="untDeviceSettings.pas"/>
+        <Caret Line="13" Column="31"/>
+      </Position>
+      <Position>
+        <Filename Value="untDeviceSettings.pas"/>
+        <Caret Line="226" TopLine="199"/>
+      </Position>
+      <Position>
+        <Filename Value="untDeviceSettings.pas"/>
+        <Caret Line="218" Column="15" TopLine="194"/>
+      </Position>
+      <Position>
+        <Filename Value="untDeviceSettings.pas"/>
+        <Caret Line="242" Column="45" TopLine="229"/>
+      </Position>
+      <Position>
+        <Filename Value="untDeviceSettings.pas"/>
+        <Caret Line="242" Column="45" TopLine="215"/>
+      </Position>
+      <Position>
+        <Filename Value="untDeviceMain.pas"/>
+        <Caret Line="9" Column="37"/>
+      </Position>
+      <Position>
+        <Filename Value="untDeviceMain.pas"/>
+        <Caret Line="590" Column="58" TopLine="567"/>
+      </Position>
+      <Position>
+        <Filename Value="untCOMPortList.pas"/>
+        <Caret Line="12" Column="13"/>
+      </Position>
+      <Position>
+        <Filename Value="untCOMPortList.pas"/>
+        <Caret Line="93" Column="10" TopLine="75"/>
+      </Position>
+      <Position>
+        <Filename Value="untDeviceMain.pas"/>
+        <Caret Line="590" Column="58" TopLine="568"/>
+      </Position>
+      <Position>
+        <Filename Value="untDeviceMain.pas"/>
+        <Caret Line="598" Column="3" TopLine="571"/>
+      </Position>
+      <Position>
+        <Filename Value="untCOMPortList.pas"/>
+        <Caret Line="119" Column="17" TopLine="89"/>
+      </Position>
+      <Position>
+        <Filename Value="untCOMPortList.pas"/>
+        <Caret Line="16" Column="19" TopLine="3"/>
+      </Position>
+      <Position>
+        <Filename Value="untCOMPortList.pas"/>
+        <Caret Line="42" Column="3" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="untCOMPortList.pas"/>
+        <Caret Line="16" Column="11"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+  <Debugging>
+    <Watches>
+      <Item>
+        <Expression Value="Coils"/>
+      </Item>
+      <Item>
+        <Expression Value="Data"/>
+      </Item>
+      <Item>
+        <Expression Value="Device"/>
+      </Item>
+    </Watches>
+  </Debugging>
+</CONFIG>

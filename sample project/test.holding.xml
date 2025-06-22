@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <grid version="3">
+    <saveoptions create="True" position="False" content="False"/>
+    <design columncount="17" rowcount="4097" fixedcols="1" fixedrows="1" defaultcolwidth="50" isdefaultcolwidth="1" defaultrowheight="18" isdefaultrowheight="1" color="clWindow">
+      <columns columnsenabled="True" columncount="16">
+        <column0>
+          <index value="0"/>
+          <width value="64"/>
+          <alignment value="2"/>
+          <buttonstyle value="0"/>
+          <title>
+            <caption value="+0"/>
+            <font>
+              <name value="default"/>
+              <size value="0"/>
+              <color value="clDefault"/>
+              <style value="0"/>
+            </font>
+            <alignment value="2"/>
+          </title>
+        </column0>
+        <column1>
+          <index value="1"/>
+          <width value="64"/>
+          <alignment value="2"/>
+          <buttonstyle value="0"/>
+          <title>
+            <caption value="+1"/>
+            <font>
+              <name value="default"/>
+              <size value="0"/>
+              <color value="clDefault"/>
+              <style value="0"/>
+            </font>
+            <alignment value="2"/>
+          </title>
+        </column1>
+        <column2>
+          <index value="2"/>
+          <width value="64"/>
+          <alignment value="2"/>
+          <buttonstyle value="0"/>
+          <title>
+            <caption value="+2"/>
+            <alignment value="2"/>
+          </title>
+        </column2>
+        <column3>
+          <index value="3"/>
+          <width value="64"/>
+          <alignment value="2"/>
+          <buttonstyle value="0"/>
+          <title>
+            <caption value="+3"/>
+            <alignment value="2"/>
+          </title>
+        </column3>
+        <column4>
+          <index value="4"/>
+          <width value="64"/>
+          <alignment value="2"/>
+          <buttonstyle value="0"/>
+          <title>
+            <caption value="+4"/>
+            <alignment value="2"/>
+          </title>
+        </column4>
+        <column5>
+          <index value="5"/>
+          <width value="64"/>
+          <alignment value="2"/>
+          <buttonstyle value="0"/>
+          <title>
+            <caption value="+5"/>
+            <alignment value="2"/>
+          </title>
+        </column5>
+        <column6>
+          <index value="6"/>
+          <width value="64"/>
+          <alignment value="2"/>
+          <buttonstyle value="0"/>
+          <title>
+            <caption value="+6"/>
+            <alignment value="2"/>
+          </title>
+        </column6>
+        <column7>
+          <index value="7"/>
+          <width value="64"/>
+          <alignment value="2"/>
+          <buttonstyle value="0"/>
+          <title>
+            <caption value="+7"/>
+            <alignment value="2"/>
+          </title>
+        </column7>
+        <column8>
+          <index value="8"/>
+          <width value="64"/>
+          <alignment value="2"/>
+          <buttonstyle value="0"/>
+          <title>
+            <caption value="+8"/>
+            <alignment value="2"/>
+          </title>
+        </column8>
+        <column9>
+          <index value="9"/>
+          <width value="64"/>
+          <alignment value="2"/>
+          <buttonstyle value="0"/>
+          <title>
+            <caption value="+9"/>
+            <alignment value="2"/>
+          </title>
+        </column9>
+        <column10>
+          <index value="10"/>
+          <width value="64"/>
+          <alignment value="2"/>
+          <buttonstyle value="0"/>
+          <title>
+            <caption value="+10"/>
+            <alignment value="2"/>
+          </title>
+        </column10>
+        <column11>
+          <index value="11"/>
+          <width value="64"/>
+          <alignment value="2"/>
+          <buttonstyle value="0"/>
+          <title>
+            <caption value="+11"/>
+            <alignment value="2"/>
+          </title>
+        </column11>
+        <column12>
+          <index value="12"/>
+          <width value="64"/>
+          <alignment value="2"/>
+          <buttonstyle value="0"/>
+          <title>
+            <caption value="+12"/>
+            <alignment value="2"/>
+          </title>
+        </column12>
+        <column13>
+          <index value="13"/>
+          <width value="64"/>
+          <alignment value="2"/>
+          <buttonstyle value="0"/>
+          <title>
+            <caption value="+13"/>
+            <alignment value="2"/>
+          </title>
+        </column13>
+        <column14>
+          <index value="14"/>
+          <width value="64"/>
+          <alignment value="2"/>
+          <buttonstyle value="0"/>
+          <title>
+            <caption value="+14"/>
+            <alignment value="2"/>
+          </title>
+        </column14>
+        <column15>
+          <index value="15"/>
+          <width value="64"/>
+          <alignment value="2"/>
+          <buttonstyle value="0"/>
+          <title>
+            <caption value="+15"/>
+            <alignment value="2"/>
+          </title>
+        </column15>
+      </columns>
+      <options>
+        <goFixedVertLine value="True"/>
+        <goFixedHorzLine value="True"/>
+        <goVertLine value="True"/>
+        <goHorzLine value="True"/>
+        <goRangeSelect value="True"/>
+        <goDrawFocusSelected value="True"/>
+        <goRowSizing value="False"/>
+        <goColSizing value="False"/>
+        <goRowMoving value="False"/>
+        <goColMoving value="False"/>
+        <goEditing value="True"/>
+        <goAutoAddRows value="False"/>
+        <goTabs value="False"/>
+        <goRowSelect value="False"/>
+        <goAlwaysShowEditor value="False"/>
+        <goThumbTracking value="False"/>
+        <goColSpanning value="False"/>
+        <goRelaxedRowSelect value="False"/>
+        <goDblClickAutoSize value="False"/>
+        <goSmoothScroll value="True"/>
+        <goAutoAddRowsSkipContentCheck value="False"/>
+        <goRowHighlight value="False"/>
+        <goScrollToLastCol value="False"/>
+        <goScrollToLastRow value="False"/>
+      </options>
+    </design>
+  </grid>
+</CONFIG>
